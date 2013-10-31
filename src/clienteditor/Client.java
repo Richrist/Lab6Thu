@@ -57,6 +57,10 @@ public class Client {
     /** Instant messenger of the client. */
     private String im;
     
+    private String change;
+    
+    private String change2;
+    
     // <editor-fold defaultstate="collapsed" desc="PropertyChange Stuff">
     private final PropertyChangeSupport changeSupport = new PropertyChangeSupport(this);
     
